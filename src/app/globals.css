@@ -4,117 +4,278 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+    --radius-sm: calc(var(--radius) - 4px);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) + 4px);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-destructive: var(--destructive);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+    --color-chart-1: var(--chart-1);
+    --color-chart-2: var(--chart-2);
+    --color-chart-3: var(--chart-3);
+    --color-chart-4: var(--chart-4);
+    --color-chart-5: var(--chart-5);
+    --color-sidebar: var(--sidebar);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-ring: var(--sidebar-ring);
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.141 0.005 285.823);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.141 0.005 285.823);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.141 0.005 285.823);
-  --primary: oklch(0.21 0.006 285.885);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.967 0.001 286.375);
-  --secondary-foreground: oklch(0.21 0.006 285.885);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.21 0.006 285.885);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.705 0.015 286.067);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-primary: oklch(0.21 0.006 285.885);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.705 0.015 286.067);
+    /* PassPal Design System Colors */
+    --passpal-primary: #b19cd9;
+    --passpal-primary-light: #f0ebff;
+    --passpal-primary-dark: #8d7bb8;
+
+    /* Secondary Colors */
+    --passpal-pink: #f4a6cd;
+    --passpal-pink-light: #fef0f7;
+    --passpal-blue: #a8d8ea;
+    --passpal-blue-light: #f0f8ff;
+    --passpal-green: #b8e6b8;
+    --passpal-green-light: #f0fff0;
+    --passpal-orange: #ffd3ab;
+    --passpal-orange-light: #fff8f0;
+
+    /* Neutral Colors */
+    --passpal-black: #2d2d30;
+    --passpal-gray-600: #8b8b8b;
+    --passpal-gray-400: #b8b8b8;
+    --passpal-gray-200: #e8e8e8;
+    --passpal-gray-100: #f5f5f5;
+    --passpal-white: #ffffff;
+
+    /* Status Colors */
+    --passpal-success: #90c695;
+    --passpal-success-light: #f0f9f1;
+    --passpal-warning: #f3c842;
+    --passpal-warning-light: #fffbf0;
+    --passpal-error: #e57373;
+    --passpal-error-light: #fef5f5;
+    --passpal-info: #81c7d4;
+    --passpal-info-light: #f0ebff;
+
+    /* System Colors - Updated to use PassPal palette */
+    --radius: 0.625rem;
+    --background: var(--passpal-white);
+    --foreground: var(--passpal-black);
+    --card: var(--passpal-white);
+    --card-foreground: var(--passpal-black);
+    --popover: var(--passpal-white);
+    --popover-foreground: var(--passpal-black);
+    --primary: var(--passpal-primary);
+    --primary-foreground: var(--passpal-white);
+    --secondary: var(--passpal-gray-100);
+    --secondary-foreground: var(--passpal-black);
+    --muted: var(--passpal-gray-100);
+    --muted-foreground: var(--passpal-gray-600);
+    --accent: var(--passpal-primary-light);
+    --accent-foreground: var(--passpal-primary);
+    --destructive: var(--passpal-error);
+    --border: var(--passpal-gray-200);
+    --input: var(--passpal-gray-200);
+    --ring: var(--passpal-primary);
+    --chart-1: var(--passpal-primary);
+    --chart-2: var(--passpal-blue);
+    --chart-3: var(--passpal-green);
+    --chart-4: var(--passpal-pink);
+    --chart-5: var(--passpal-orange);
+    --sidebar: var(--passpal-white);
+    --sidebar-foreground: var(--passpal-black);
+    --sidebar-primary: var(--passpal-primary);
+    --sidebar-primary-foreground: var(--passpal-white);
+    --sidebar-accent: var(--passpal-gray-100);
+    --sidebar-accent-foreground: var(--passpal-black);
+    --sidebar-border: var(--passpal-gray-200);
+    --sidebar-ring: var(--passpal-primary);
 }
 
 .dark {
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.92 0.004 286.32);
-  --primary-foreground: oklch(0.21 0.006 285.885);
-  --secondary: oklch(0.274 0.006 286.033);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.552 0.016 285.938);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.552 0.016 285.938);
+    --background: var(--passpal-black);
+    --foreground: var(--passpal-white);
+    --card: var(--passpal-gray-600);
+    --card-foreground: var(--passpal-white);
+    --popover: var(--passpal-gray-600);
+    --popover-foreground: var(--passpal-white);
+    --primary: var(--passpal-primary);
+    --primary-foreground: var(--passpal-white);
+    --secondary: var(--passpal-gray-400);
+    --secondary-foreground: var(--passpal-white);
+    --muted: var(--passpal-gray-400);
+    --muted-foreground: var(--passpal-gray-200);
+    --accent: var(--passpal-primary-dark);
+    --accent-foreground: var(--passpal-white);
+    --destructive: var(--passpal-error);
+    --border: var(--passpal-gray-400);
+    --input: var(--passpal-gray-400);
+    --ring: var(--passpal-primary);
+    --chart-1: var(--passpal-primary);
+    --chart-2: var(--passpal-blue);
+    --chart-3: var(--passpal-green);
+    --chart-4: var(--passpal-pink);
+    --chart-5: var(--passpal-orange);
+    --sidebar: var(--passpal-black);
+    --sidebar-foreground: var(--passpal-white);
+    --sidebar-primary: var(--passpal-primary);
+    --sidebar-primary-foreground: var(--passpal-white);
+    --sidebar-accent: var(--passpal-gray-400);
+    --sidebar-accent-foreground: var(--passpal-white);
+    --sidebar-border: var(--passpal-gray-400);
+    --sidebar-ring: var(--passpal-primary);
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+    * {
+        @apply border-border outline-ring/50;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+/* Custom utility classes for PassPal design system */
+.bg-passpal-primary {
+    background-color: var(--passpal-primary);
+}
+.bg-passpal-primary-light {
+    background-color: var(--passpal-primary-light);
+}
+.bg-passpal-primary-dark {
+    background-color: var(--passpal-primary-dark);
+}
+.bg-passpal-pink {
+    background-color: var(--passpal-pink);
+}
+.bg-passpal-pink-light {
+    background-color: var(--passpal-pink-light);
+}
+.bg-passpal-blue {
+    background-color: var(--passpal-blue);
+}
+.bg-passpal-blue-light {
+    background-color: var(--passpal-blue-light);
+}
+.bg-passpal-green {
+    background-color: var(--passpal-green);
+}
+.bg-passpal-green-light {
+    background-color: var(--passpal-green-light);
+}
+.bg-passpal-orange {
+    background-color: var(--passpal-orange);
+}
+.bg-passpal-orange-light {
+    background-color: var(--passpal-orange-light);
+}
+.bg-passpal-success {
+    background-color: var(--passpal-success);
+}
+.bg-passpal-success-light {
+    background-color: var(--passpal-success-light);
+}
+.bg-passpal-warning {
+    background-color: var(--passpal-warning);
+}
+.bg-passpal-warning-light {
+    background-color: var(--passpal-warning-light);
+}
+.bg-passpal-error {
+    background-color: var(--passpal-error);
+}
+.bg-passpal-error-light {
+    background-color: var(--passpal-error-light);
+}
+.bg-passpal-info {
+    background-color: var(--passpal-info);
+}
+.bg-passpal-info-light {
+    background-color: var(--passpal-info-light);
+}
+
+.text-passpal-primary {
+    color: var(--passpal-primary);
+}
+.text-passpal-primary-light {
+    color: var(--passpal-primary-light);
+}
+.text-passpal-primary-dark {
+    color: var(--passpal-primary-dark);
+}
+.text-passpal-pink {
+    color: var(--passpal-pink);
+}
+.text-passpal-blue {
+    color: var(--passpal-blue);
+}
+.text-passpal-green {
+    color: var(--passpal-green);
+}
+.text-passpal-orange {
+    color: var(--passpal-orange);
+}
+.text-passpal-success {
+    color: var(--passpal-success);
+}
+.text-passpal-warning {
+    color: var(--passpal-warning);
+}
+.text-passpal-error {
+    color: var(--passpal-error);
+}
+.text-passpal-info {
+    color: var(--passpal-info);
+}
+.text-passpal-black {
+    color: var(--passpal-black);
+}
+.text-passpal-white {
+    color: var(--passpal-white);
+}
+.text-passpal-gray-600 {
+    color: var(--passpal-gray-600);
+}
+.text-passpal-gray-400 {
+    color: var(--passpal-gray-400);
+}
+.text-passpal-gray-200 {
+    color: var(--passpal-gray-200);
+}
+.text-passpal-gray-100 {
+    color: var(--passpal-gray-100);
+}
+
+.border-passpal-primary {
+    border-color: var(--passpal-primary);
+}
+.border-passpal-success {
+    border-color: var(--passpal-success);
+}
+.border-passpal-warning {
+    border-color: var(--passpal-warning);
+}
+.border-passpal-error {
+    border-color: var(--passpal-error);
+}
+.border-passpal-info {
+    border-color: var(--passpal-info);
 }

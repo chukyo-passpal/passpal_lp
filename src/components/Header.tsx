@@ -7,22 +7,22 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex items-center">
-                        <div className="w-8 h-8 bg-gradient-to-r from-purple-400 to-pink-400 rounded-lg mr-2 shadow-sm">
-                            <Sparkles className="w-5 h-5 text-white m-1.5" />
+                        <div className="w-8 h-8 bg-passpal-primary rounded-lg mr-2 shadow-sm">
+                            <Sparkles className="w-5 h-5 text-passpal-white m-1.5" />
                         </div>
-                        <span className="text-xl font-bold text-gray-900">PassPal</span>
+                        <span className="text-xl font-bold text-passpal-black">PassPal</span>
                     </div>
                     <nav className="hidden md:flex space-x-8">
-                        <a href="#features" className="text-gray-600 hover:text-purple-600">
+                        <a href="#features" className="text-passpal-gray-600 hover:text-passpal-primary transition-colors">
                             機能
                         </a>
-                        <a href="#how-it-works" className="text-gray-600 hover:text-purple-600">
+                        <a href="#how-it-works" className="text-passpal-gray-600 hover:text-passpal-primary transition-colors">
                             使い方
                         </a>
-                        <a href="#testimonials" className="text-gray-600 hover:text-purple-600">
+                        <a href="#testimonials" className="text-passpal-gray-600 hover:text-passpal-primary transition-colors">
                             レビュー
                         </a>
-                        <a href="#faq" className="text-gray-600 hover:text-purple-600">
+                        <a href="#faq" className="text-passpal-gray-600 hover:text-passpal-primary transition-colors">
                             FAQ
                         </a>
                     </nav>

@@ -9,7 +9,7 @@ interface DownloadCTAProps {
     noteColor?: string;
 }
 
-export default function DownloadCTA({ noteColor = "text-gray-500" }: DownloadCTAProps) {
+export default function DownloadCTA({ noteColor = "text-passpal-gray-600" }: DownloadCTAProps) {
     const [platform, setPlatform] = useState<Platform>("desktop");
 
     useEffect(() => {
