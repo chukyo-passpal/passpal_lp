@@ -34,6 +34,12 @@ export default function AuthPage() {
 
         globalThis.addEventListener("message", function ({ data }) {
             if (data.initAuth) {
+                if (data.loginHint) {
+                    PROVIDER.setCustomParameters({
+                        login_hint: data.loginHint,
+                    });
+                }
+
                 // 拡張機能のオフスクリーンドキュメント内のiframe内で、
                 // Googleサインインページをポップアップで開きます。
                 // ロジックを一元化するため、すべてのレスポンスは親フレームに転送され、
