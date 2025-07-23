@@ -14,7 +14,7 @@ const firebaseConfig = {
 };
 
 export default function AuthPage() {
-    const app = initializeApp(firebaseConfig);
+    initializeApp(firebaseConfig);
     const auth = getAuth();
 
     // This code runs inside of an iframe in the extension's offscreen document.
