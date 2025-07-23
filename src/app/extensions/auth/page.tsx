@@ -19,13 +19,12 @@ export default function AuthPage() {
         initializeApp(firebaseConfig);
         const auth = getAuth();
 
-        // This code runs inside of an iframe in the extension's offscreen document.
-        // This gives you a reference to the parent frame, i.e. the offscreen document.
-        // You will need this to assign the targetOrigin for postMessage.
+        // このコードは拡張機能のオフスクリーンドキュメント内のiframe内で実行されます。
+        // これにより親フレーム（オフスクリーンドキュメント）への参照が得られます。
+        // postMessageのtargetOriginを設定するために必要です。
         const PARENT_FRAME = document.location.ancestorOrigins[0];
 
-        // This demo uses the Google auth provider, but any supported provider works.
-        // Make sure that you enable any provider you want to use in the Firebase Console.
+        // Firebase Consoleで使用したいプロバイダーを有効にしてください。
         // https://console.firebase.google.com/project/_/authentication/providers
         const PROVIDER = new GoogleAuthProvider();
 
@@ -35,10 +34,10 @@ export default function AuthPage() {
 
         globalThis.addEventListener("message", function ({ data }) {
             if (data.initAuth) {
-                // Opens the Google sign-in page in a popup, inside of an iframe in the
-                // extension's offscreen document.
-                // To centralize logic, all respones are forwarded to the parent frame,
-                // which goes on to forward them to the extension's service worker.
+                // 拡張機能のオフスクリーンドキュメント内のiframe内で、
+                // Googleサインインページをポップアップで開きます。
+                // ロジックを一元化するため、すべてのレスポンスは親フレームに転送され、
+                // そこから拡張機能のサービスワーカーに転送されます。
                 signInWithPopup(auth, PROVIDER).then(sendResponse).catch(sendResponse);
             }
         });
