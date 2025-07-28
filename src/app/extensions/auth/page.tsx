@@ -4,14 +4,13 @@ import { initializeApp } from "firebase/app";
 import { useEffect } from "react";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDjspgb04eUJRlNvkyGfQN0Vuug9OW5GsM",
-    authDomain: "passpal-c55ac.firebaseapp.com",
-    databaseURL: "https://passpal-c55ac-default-rtdb.firebaseio.com",
-    projectId: "passpal-c55ac",
-    storageBucket: "passpal-c55ac.firebasestorage.app",
-    messagingSenderId: "781950936841",
-    appId: "1:781950936841:web:8e3782101e8b48c41915d8",
-    measurementId: "G-MV7W80SLVQ",
+    apiKey: "AIzaSyDEIMvdEP3dVb6ePmE4XZODAPnjcrwydeg",
+    authDomain: "chukyo-passpal.firebaseapp.com",
+    projectId: "chukyo-passpal",
+    storageBucket: "chukyo-passpal.firebasestorage.app",
+    messagingSenderId: "707651746611",
+    appId: "1:707651746611:web:3978e68bf6ffce20055c46",
+    measurementId: "G-08GCHLYMXG",
 };
 
 export default function AuthPage() {
