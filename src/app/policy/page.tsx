@@ -5,7 +5,7 @@ export default function PrivacyPolicyPage() {
 
             <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                    ぱすぱる開発チーム（以下，「当チーム」といいます。）は，本スマートフォンアプリケーション「ぱすぱる」（以下，「本サービス」といいます。）におけるユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
+                    PassPal開発チーム（以下，「当チーム」といいます。）は，本スマートフォンアプリケーション「PassPal」（以下，「本サービス」といいます。）におけるユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
                 </p>
 
                 <section>
@@ -193,7 +193,7 @@ export default function PrivacyPolicyPage() {
                     <p className="mb-4">本ポリシーに関するお問い合わせは，下記窓口までお願いいたします。</p>
                     <div className="bg-gray-50 p-4 rounded-lg">
                         <p>
-                            <strong>組織名：</strong>ぱすぱる開発チーム
+                            <strong>組織名：</strong>PassPal開発チーム
                         </p>
                         <p>
                             <strong>代表者名：</strong>松田 直旺

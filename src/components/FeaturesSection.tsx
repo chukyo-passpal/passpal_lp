@@ -12,7 +12,7 @@ export default function FeaturesSection() {
                         <Sparkles className="w-4 h-4 mr-2" />
                         手軽で簡単
                     </Badge>
-                    <h2 className="text-3xl md:text-4xl font-bold text-passpal-black mb-4">ぱすぱるの主な特徴</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-passpal-black mb-4">PassPalの主な特徴</h2>
                     <p className="text-xl text-passpal-gray-600 max-w-2xl mx-auto">複雑な設定は一切不要。今すぐ使い始められます。</p>
                 </div>
 

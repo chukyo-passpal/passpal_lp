@@ -1,11 +1,11 @@
 export default function TermsOfServicePage() {
     return (
         <div className="max-w-4xl mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-center mb-8">ぱすぱる利用規約</h1>
+            <h1 className="text-3xl font-bold text-center mb-8">PassPal利用規約</h1>
 
             <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                    本規約（以下「本規約」といいます。）は、ぱすぱる運営チーム（以下「当チーム」といいます。）がサービス「ぱすぱる」（以下「本サービス」といいます。）上で提供する一切のサービスの利用条件を定めるものです。登録利用者（以下「ユーザー」といいます。）は、本規約に同意のうえ本サービスを利用するものとします。
+                    本規約（以下「本規約」といいます。）は、PassPal運営チーム（以下「当チーム」といいます。）がサービス「PassPal」（以下「本サービス」といいます。）上で提供する一切のサービスの利用条件を定めるものです。登録利用者（以下「ユーザー」といいます。）は、本規約に同意のうえ本サービスを利用するものとします。
                 </p>
 
                 <hr className="border-gray-300 my-8" />

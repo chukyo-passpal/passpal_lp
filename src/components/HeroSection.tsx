@@ -20,7 +20,7 @@ export default function HeroSection() {
                         もっと<span className="text-passpal-primary">スマート</span>に。
                     </h1>
                     <p className="text-xl text-passpal-gray-600 mb-4 max-w-3xl mx-auto">
-                        ぱすぱるは、授業・課題・連絡を一元管理できる新しい学生生活サポートアプリです。
+                        PassPalは、授業・課題・連絡を一元管理できる新しい学生生活サポートアプリです。
                     </p>
                     <div className="flex justify-center items-center mb-8 text-passpal-success">
                         <CheckCircle className="w-5 h-5 mr-2" />

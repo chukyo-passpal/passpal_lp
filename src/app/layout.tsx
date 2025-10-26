@@ -12,22 +12,18 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "ぱすぱる",
-  description: "ぱすぱるは、中京大学非公式の学生生活支援アプリです。",
+    title: "PassPal",
+    description: "PassPalは、中京大学非公式の学生生活支援アプリです。",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="ja">
-      <body
-        className={`${notoSansJp.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="ja">
+            <body className={`${notoSansJp.variable} antialiased`}>{children}</body>
+        </html>
+    );
 }
