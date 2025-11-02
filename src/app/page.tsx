@@ -207,7 +207,7 @@ export default function HomePage() {
                             >
                                 <Badge className="mb-6 flex w-fit items-center justify-center gap-2 border border-purple-500/50 bg-purple-500/20 px-6 py-2 text-lg text-purple-300 backdrop-blur-sm">
                                     <Sparkles className="h-4 w-4" />
-                                    chukyomanabo を超える次世代アプリ
+                                    中京大生のための次世代アプリ
                                 </Badge>
                             </motion.div>
 
