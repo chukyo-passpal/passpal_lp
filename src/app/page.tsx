@@ -251,14 +251,6 @@ export default function HomePage() {
                                     <Download className="mr-2 h-6 w-6" />
                                     今すぐ無料で始める
                                 </Button>
-                                <Button
-                                    size="lg"
-                                    variant="outline"
-                                    className="border-purple-500/50 px-8 py-6 text-lg text-purple-300 transition-colors hover:bg-purple-500/10"
-                                >
-                                    詳しく見る
-                                    <ChevronDown className="ml-2 h-6 w-6" />
-                                </Button>
                             </motion.div>
 
                             <motion.div
