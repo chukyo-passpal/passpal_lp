@@ -13,7 +13,7 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://passpal.app"),
+    metadataBase: new URL("https://chukyo-passpal.app/"),
     title: {
         default: "PassPal｜中京大学向け学習ハブアプリ",
         template: "%s｜PassPal",
@@ -82,7 +82,7 @@ const structuredData = {
     name: "PassPal",
     applicationCategory: "EducationalApplication",
     operatingSystem: ["iOS", "Android", "Web"].join(", "),
-    url: "https://passpal.app/",
+    url: "https://chukyo-passpal.app/",
     description: "PassPalは中京大学の学習情報を一括管理できる非公式ハブアプリです。課題や時間割、お知らせをまとめて確認できます。",
     inLanguage: "ja-JP",
     keywords: ["中京大学", "PassPal", "課題管理アプリ", "時間割アプリ", "学生生活"],
@@ -91,11 +91,11 @@ const structuredData = {
         price: "0",
         priceCurrency: "JPY",
     },
-    downloadUrl: ["https://apps.apple.com/jp/app/", "https://play.google.com/store/apps/"],
+    downloadUrl: ["https://apps.apple.com/app/passpal/id6754452343", "hhttps://play.google.com/store/apps/details?id=app.chukyopasspal.passpal"],
     publisher: {
         "@type": "Organization",
         name: "PassPal開発チーム",
-        url: "https://passpal.app/",
+        url: "https://chukyo-passpal.app/",
     },
     sameAs: ["https://twitter.com/passpal_app"],
 };
