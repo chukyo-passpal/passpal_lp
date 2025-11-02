@@ -1,0 +1,4 @@
+- `npm run dev` — launch the Next.js dev server (Turbopack enabled).
+- `npm run build` — create a production build.
+- `npm run start` — start the production server locally.
+- `npm run lint` — run ESLint via Next.js.

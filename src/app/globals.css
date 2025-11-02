@@ -279,3 +279,25 @@
 .border-passpal-info {
     border-color: var(--passpal-info);
 }
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus-visible {
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--passpal-primary);
+    color: var(--passpal-white);
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
