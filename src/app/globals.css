@@ -153,6 +153,13 @@
     }
 }
 
+html {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    overscroll-behavior-y: none;
+}
+
 /* Custom utility classes for PassPal design system */
 .bg-passpal-primary {
     background-color: var(--passpal-primary);
