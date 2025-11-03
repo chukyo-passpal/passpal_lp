@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     },
     description:
         "PassPalは中京大学の学習情報を一括管理できる非公式ハブアプリです。ALBO・MaNaBo・大学ポータルの課題やお知らせ、時間割をまとめて表示し、締切管理や授業の確認をスマートにします。",
-    keywords: ["中京大学", "中京", "chukyo", "PassPal", "課題管理", "時間割アプリ", "学生アプリ", "大学生活", "学習管理", "非公式アプリ"],
+    keywords: ["中京大学", "中京", "chukyo", "PassPal", "ぱすぱる", "パスパル", "課題管理", "時間割", "学生", "大学生活", "学習管理", "非公式アプリ", "アプリ"],
     applicationName: "PassPal",
     alternates: {
         canonical: "/",
